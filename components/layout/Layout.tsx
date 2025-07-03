@@ -6,10 +6,10 @@ type LayoutProps = { children: React.ReactNode };
 
 export default function Layout({ children }: LayoutProps) {
   return (
-    <div className={clsx("flex flex-col min-h-screen")}>
+    <main className={clsx("flex flex-col min-h-screen")}>
       <Header />
-      <main className="flex-grow">{children}</main>
+      <section className="flex-grow">{children}</section>
       <Footer />
-    </div>
+    </main>
   );
 }
