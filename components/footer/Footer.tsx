@@ -1,24 +1,18 @@
 export const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-black py-4">
+    <footer className="bg-gray-800 text-white py-4">
       <div className="container mx-auto text-center">
-        <p>
-          &copy; {new Date().getFullYear()} My Company. All rights reserved.
+        <p className="text-sm">
+          &copy; {new Date().getFullYear()} ICM - Iglesia Cristiana Maranata.
+          Todos los derechos reservados.
         </p>
-        <p>
-          Follow us on{" "}
+        <p className="text-xs mt-2">
+          Sitio web desarrollado por{" "}
           <a
-            href="https://twitter.com"
+            href="https://github.com/jansenosorio"
             className="text-blue-400 hover:underline"
           >
-            Twitter
-          </a>{" "}
-          and{" "}
-          <a
-            href="https://github.com"
-            className="text-blue-400 hover:underline"
-          >
-            GitHub
+            Jansen Osório
           </a>
         </p>
       </div>

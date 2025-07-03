@@ -1,7 +1,9 @@
 export default function HomePage() {
   return (
-    <div className="flex h-screen items-center justify-center">
-      <h1 className="text-4xl font-bold">Bienvenido a ICM</h1>
-    </div>
+    <main className="container mx-auto p-4">
+      <h1>Welcome to ICM - Iglesia Cristiana Maranata</h1>
+      <p>Una comunidad de fe y esperanza</p>
+      {/* Add more content or components as needed */}
+    </main>
   );
 }
