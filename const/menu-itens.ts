@@ -9,11 +9,15 @@ export const MENU_ITENS: MenuItem[] = [
     href: "/",
   },
   {
-    title: "About",
-    href: "/about",
+    title: "Quienes somos",
+    href: "/quienes-somos",
   },
   {
-    title: "Contact",
-    href: "/contact",
+    title: "Doctrinas",
+    href: "/doctrinas",
+  },
+  {
+    title: "Contacto",
+    href: "/contacto",
   },
 ];
