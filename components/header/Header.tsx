@@ -1,10 +1,14 @@
 import clsx from "clsx";
-import Image from "next/image";
+import { Menu } from "./Menu";
+import { Logo } from "../logo";
 
 export const Header = () => {
   return (
-    <header className={clsx("container")}>
-      <Image src="/logo.svg" alt="Logo" width={220} height={125} />
+    <header className={clsx("w-full")}>
+      <div className={clsx("flex items-center justify-between")}>
+        <Logo />
+        <Menu />
+      </div>
     </header>
   );
 };
