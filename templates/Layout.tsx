@@ -1,6 +1,6 @@
 import clsx from "clsx";
-import { Footer } from "../footer";
-import { Header } from "../header";
+import { Footer } from "../components/footer";
+import { Header } from "../components/header";
 
 type LayoutProps = { children: React.ReactNode };
 
