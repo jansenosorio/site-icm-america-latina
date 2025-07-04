@@ -1,25 +1,21 @@
+import { MenuItem } from "@/const/menu-itens";
 import Link from "next/link";
 
-export function Menu() {
+type MenuProps = {
+  menuItens: MenuItem[];
+};
+export function Menu({ menuItens }: MenuProps) {
   return (
     <nav className="text-red-950 p-4">
       <div className="container mx-auto flex justify-between items-center">
         <ul className="flex space-x-4">
-          <li>
-            <Link href="/" className="hover:underline">
-              Inicio
-            </Link>
-          </li>
-          <li>
-            <Link href="/about" className="hover:underline">
-              Sobre Nosotros
-            </Link>
-          </li>
-          <li>
-            <Link href="/contact" className="hover:underline">
-              Contacto
-            </Link>
-          </li>
+          {menuItens.map((item) => (
+            <li key={item.href}>
+              <Link href={item.href} className="hover:underline">
+                {item.title}
+              </Link>
+            </li>
+          ))}
         </ul>
       </div>
     </nav>
