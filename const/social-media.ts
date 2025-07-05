@@ -1,6 +1,6 @@
 import { FacebookIcon, Instagram, Twitter, Youtube } from "lucide-react";
 
-type SocialMediaType = {
+export type SocialMediaType = {
   name: string;
   url: string;
   icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;

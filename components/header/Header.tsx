@@ -3,6 +3,7 @@ import { Menu } from "../menus/Menu";
 import { Logo } from "../logo";
 import { MENU_ITENS } from "@/const/menu-itens";
 import { DropDownMenu } from "../menus";
+import SOCIAL_MEDIA from "@/const/social-media";
 
 export const Header = () => {
   return (
@@ -22,6 +23,7 @@ export const Header = () => {
         <div className="flex items-center">
           <Menu menuItens={MENU_ITENS} />
           <DropDownMenu
+            arr={SOCIAL_MEDIA}
             activeButtonName="Redes sociales"
             sectionName={"América Latina"}
           />
