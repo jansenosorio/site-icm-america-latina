@@ -16,12 +16,7 @@ export function HomePage() {
 
       {/* FAST ACCESS CARDS */}
       <div className={clsx("container", "pt-10")}>
-        <div
-          className={clsx(
-            "flex items-center gap-4",
-            "border-b border-red-950 pb-4"
-          )}
-        >
+        <div className={clsx("flex items-center gap-4")}>
           <FolderTree className="h-6 w-6 text-red-950" />
           <h3 className="text-2xl font-bold text-red-950">Acceso rápido</h3>
         </div>
