@@ -3,6 +3,7 @@ import { HeroSection } from "../../components/sections/HeroSection";
 import { FastAccessCard } from "@/components/cards/FastAccessCard";
 import { FAST_ACCESS_CARD_INFOS } from "@/const/fast-access-infos";
 import { SectionTitle } from "@/components/typography/SectionTitle";
+import { FolderTree } from "lucide-react";
 
 export function HomePage() {
   return (
@@ -16,7 +17,7 @@ export function HomePage() {
 
       {/* FAST ACCESS CARDS */}
       <div className={clsx("container", "pt-10")}>
-        <SectionTitle title="Acceso rápido" />
+        <SectionTitle title="Acceso rápido" icon={FolderTree} />
       </div>
       <section
         className={clsx(
