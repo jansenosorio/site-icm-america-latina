@@ -1,7 +1,8 @@
 import clsx from "clsx";
-import { Menu } from "./Menu";
+import { Menu } from "../menus/Menu";
 import { Logo } from "../logo";
 import { MENU_ITENS } from "@/const/menu-itens";
+import { DropDownMenu } from "../menus";
 
 export const Header = () => {
   return (
@@ -18,7 +19,13 @@ export const Header = () => {
         )}
       >
         <Logo />
-        <Menu menuItens={MENU_ITENS} />
+        <div className="flex items-center">
+          <Menu menuItens={MENU_ITENS} />
+          <DropDownMenu
+            activeButtonName="Redes sociales"
+            sectionName={"América Latina"}
+          />
+        </div>
       </div>
     </header>
   );

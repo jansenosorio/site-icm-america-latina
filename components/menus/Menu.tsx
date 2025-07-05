@@ -7,8 +7,8 @@ type MenuProps = {
 };
 export function Menu({ menuItens }: MenuProps) {
   return (
-    <nav className="text-red-950 p-4">
-      <div className="container mx-auto flex justify-between items-center">
+    <nav className="text-red-950 px-4">
+      <div className="mx-auto flex justify-between items-center">
         <ul className="grid grid-cols-2 md:flex md:items-center gap-4">
           {menuItens.map((item) => (
             <Button variant={"ghost"} asChild key={item.href}>
