@@ -7,8 +7,8 @@ export const Header = () => {
   return (
     <header
       className={clsx(
-        "sticky top-0 left-0 w-full py-5 shadow-2xl",
-        "bg-red-100/10"
+        "sticky top-0 left-0 z-50 w-full py-5 shadow-2xl",
+        "bg-white"
       )}
     >
       <div
