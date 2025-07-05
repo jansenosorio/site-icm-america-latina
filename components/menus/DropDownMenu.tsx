@@ -22,7 +22,7 @@ export function DropDownMenu({
 }: DropDownMenuProps) {
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger>
+      <DropdownMenuTrigger asChild>
         <Button>{activeButtonName}</Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent>
