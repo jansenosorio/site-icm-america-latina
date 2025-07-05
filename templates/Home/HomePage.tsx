@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import { HeroSection } from "./HeroSection";
+import { HeroSection } from "../../components/sections/HeroSection";
 import { FastAccessCard } from "@/components/cards/FastAccessCard";
 import { FAST_ACCESS_CARD_INFOS } from "@/const/fast-access-infos";
 import { FolderTree } from "lucide-react";
@@ -22,8 +22,8 @@ export function HomePage() {
             "border-b border-red-950 pb-4"
           )}
         >
-          <FolderTree className="h-8 w-8" />
-          <h3 className="text-3xl font-bold text-red-950">Acceso rápido</h3>
+          <FolderTree className="h-6 w-6 text-red-950" />
+          <h3 className="text-2xl font-bold text-red-950">Acceso rápido</h3>
         </div>
       </div>
       <section

@@ -31,7 +31,7 @@ export function FastAccessCard({
         >
           <div
             className={clsx(
-              "flex items-end w-full h-full absolute top-0 left-0 bg-gradient-to-t from-blue-950 to-transparent z-10 rounded-lg",
+              "flex items-end w-full h-full absolute top-0 left-0 bg-gradient-to-t from-gray-700 to-transparent z-10 rounded-lg",
               "p-4"
             )}
           >
