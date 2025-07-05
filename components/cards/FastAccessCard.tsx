@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import { TextCard } from "../typography/TextCard";
+import { TitleCard } from "../typography/TitleCard";
 import Link from "next/link";
 
 type FastAccessCardProps = {
@@ -35,7 +35,7 @@ export function FastAccessCard({
               "p-4"
             )}
           >
-            <TextCard title={title} />
+            <TitleCard title={title} />
           </div>
         </div>
       </div>
