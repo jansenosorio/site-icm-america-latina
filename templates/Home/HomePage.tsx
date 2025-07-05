@@ -2,6 +2,7 @@ import clsx from "clsx";
 import { HeroSection } from "./HeroSection";
 import { FastAccessCard } from "@/components/cards/FastAccessCard";
 import { FAST_ACCESS_CARD_INFOS } from "@/const/fast-access-infos";
+import { FolderTree } from "lucide-react";
 
 export function HomePage() {
   return (
@@ -14,6 +15,17 @@ export function HomePage() {
       />
 
       {/* FAST ACCESS CARDS */}
+      <div className={clsx("container", "pt-10")}>
+        <div
+          className={clsx(
+            "flex items-center gap-4",
+            "border-b border-red-950 pb-4"
+          )}
+        >
+          <FolderTree className="h-8 w-8" />
+          <h3 className="text-3xl font-bold text-red-950">Acceso rápido</h3>
+        </div>
+      </div>
       <section
         className={clsx(
           "container",

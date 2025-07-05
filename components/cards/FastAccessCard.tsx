@@ -13,8 +13,8 @@ export function FastAccessCard({
   href,
 }: FastAccessCardProps) {
   return (
-    <div className={clsx("w-fit", "flex items-center gap-4")}>
-      <Link href={href}>
+    <Link href={href} className="min-w-full md:min-w-fit">
+      <div className={clsx("w-full md:min-w-fit", "flex items-center gap-4")}>
         <div
           style={{
             backgroundImage: `url('${backgroundImage}')`,
@@ -38,7 +38,7 @@ export function FastAccessCard({
             <TextCard title={title} />
           </div>
         </div>
-      </Link>
-    </div>
+      </div>
+    </Link>
   );
 }
