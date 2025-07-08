@@ -15,8 +15,10 @@ export function HeroSectionBlog({ title, description }: HeroSectionBlogProps) {
     >
       <div className={clsx("container mx-auto")}>
         <BreadCrumbs />
-        <h1 className={clsx("text-4xl font-bold text-white")}>{title}</h1>
-        <p className={clsx("text-lg text-gray-200 mt-2")}>
+        <h1 className={clsx("text-2xl md:text-4xl font-bold text-white")}>
+          {title}
+        </h1>
+        <p className={clsx("text-sm md:text-lg text-gray-200 mt-2")}>
           {description || "Explora nuestras últimas publicaciones y noticias."}
         </p>
       </div>

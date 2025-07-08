@@ -6,7 +6,7 @@ export function HeroSection({ lema }: HeroSectionProps) {
   return (
     <div
       className={clsx(
-        "w-screen h-60 bg-red-900",
+        "w-screen h-60 bg-red-800",
         "flex items-center justify-center"
       )}
     >
