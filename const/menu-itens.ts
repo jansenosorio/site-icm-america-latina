@@ -10,7 +10,7 @@ export const MENU_ITENS: MenuItem[] = [
   },
   {
     title: "Quienes somos",
-    href: "/quienes-somos",
+    href: "/sobre-nosotros",
   },
   {
     title: "Doctrinas",
