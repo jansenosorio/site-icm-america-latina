@@ -4,7 +4,7 @@ import { clsx } from "clsx";
 export function PalabraDeEsperanzaPage() {
   return (
     <section className="flex-grow h-full">
-      <div className={clsx("container-content mx-auto h-full px-4 pb-10")}>
+      <div className={clsx("container-content mx-auto h-full px-4 py-14")}>
         <ParagraphTitle>Nuestra Historia</ParagraphTitle>
         <Paragraph>
           La Iglesia Cristiana Maranata surgió en el seno de la comunidad
