@@ -13,11 +13,7 @@ export const MENU_ITENS: MenuItem[] = [
     href: "/sobre-nosotros",
   },
   {
-    title: "Doctrinas",
-    href: "/doctrinas",
-  },
-  {
-    title: "Contacto",
-    href: "/contacto",
+    title: "Radio Maanaim",
+    href: "https://radiomaanaim.com.br/",
   },
 ];

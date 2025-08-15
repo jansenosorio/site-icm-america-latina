@@ -7,7 +7,8 @@ export function DireccionesPageComponent() {
       <div className={clsx("container-content mx-auto h-full px-4 pb-10")}>
         <ParagraphTitle>Chile</ParagraphTitle>
         <h3 className="sm:text-md text-xl">
-          <strong>Dirección:</strong> Hoevel 5471, Quinta Normal, Región Metropolitana
+          <strong>Dirección:</strong> Hoevel 5471, Quinta Normal, Región
+          Metropolitana
         </h3>
         <div className="mt-8">
           <iframe
@@ -24,7 +25,8 @@ export function DireccionesPageComponent() {
         </div>
 
         <h3 className="sm:text-md text-xl pt-10">
-          <strong>Dirección:</strong> Décima Avenida 1163, San Miguel, Región Metropolitana
+          <strong>Dirección:</strong> Décima Avenida 1163, San Miguel, Región
+          Metropolitana
         </h3>
         <div className="mt-8">
           <iframe

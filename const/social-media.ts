@@ -1,4 +1,4 @@
-import {Instagram, Youtube } from "lucide-react";
+import {Facebook, Instagram, Youtube } from "lucide-react";
 
 export type SocialMediaType = {
   name: string;
@@ -8,19 +8,20 @@ export type SocialMediaType = {
 
 const SOCIAL_MEDIA: Array<SocialMediaType> = [
   {
-    name: "Instagram - Chile",
-    url: "https://www.instagram.com/icm_chileoficial/",
-    icon: Instagram,
-  },
-  {
-    name: "Instagram - Oficial",
-    url: "https://www.facebook.com/maranata.org/",
-    icon: Instagram,
-  },
-  {
-    name: "YouTube - Oficial",
+    name: "YouTube",
     url: "https://youtube.com/@maranataorg",
     icon: Youtube,
   },
+  {
+    name: "Facebook",
+    url: "https://www.facebook.com/maranata.org/",
+    icon: Facebook,
+  },
+  {
+    name: "Instagram",
+    url: "https://www.instagram.com/icm_chileoficial/",
+    icon: Instagram,
+  },
+  
 ];
 export default SOCIAL_MEDIA;
