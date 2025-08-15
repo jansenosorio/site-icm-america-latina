@@ -25,7 +25,7 @@ export const Header = () => {
           <DropDownMenu
             arr={SOCIAL_MEDIA}
             activeButtonName="Redes sociales"
-            sectionName={"América Latina"}
+            sectionName={"Chile"}
           />
         </div>
       </div>
