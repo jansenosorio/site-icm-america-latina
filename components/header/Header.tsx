@@ -10,17 +10,17 @@ export const Header = () => {
     <header
       className={clsx(
         "sticky top-0 left-0 z-50 w-full py-5 shadow-2xl",
-        "bg-white"
+        "bg-white",
       )}
     >
       <div
         className={clsx(
           "flex flex-col md:flex-row items-center justify-between",
-          "container"
+          "container",
         )}
       >
         <Logo />
-        <div className="flex items-center">
+        <div className="hidden md:flex items-center">
           <Menu menuItens={MENU_ITENS} />
           <DropDownMenu
             arr={SOCIAL_MEDIA}
